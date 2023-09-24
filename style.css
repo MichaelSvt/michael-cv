@@ -1,0 +1,293 @@
+/* styles.css */
+
+* {
+    /* position: static; */
+    /* border: 2px solid red; */
+}
+body{
+    font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
+    background-color: rgba(164, 134, 246, 0.423);
+    display: flex;
+    flex-direction: column;
+}
+
+.page-header{
+    padding: 25px;
+    margin-bottom: 20px;
+    height: auto;
+    background-color: rgb(5, 1, 58);
+    color: rgb(255, 255, 255);
+}
+
+.name-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.my-name {
+    font-size: 65px;
+}
+
+.contact-info {
+    gap: 16px;
+    font-size:25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.my-description {
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+/* tr {
+    border: 2px solid red;
+} */
+
+th, td {
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 22px;
+    /* border-bottom: 1px solid gray; */
+} 
+
+
+
+.education, .skills, .projects, .experience, .organizations, .languages{
+    margin-left: 35px;
+}
+
+.edu-table {
+    /* background-color: rgb(171, 214, 255); */
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.uni-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.uni-date {
+    font-size: 16px;
+}
+
+.course-name {
+    padding-left: 50px;
+}
+
+p {
+    font-size: 22px;
+    margin-left: 50px;
+    width: 65%;
+}
+
+h1 {
+    font-size: 40px;
+    /* font-size:50px; */
+    color: rgb(5, 1, 58);
+    padding: 5px;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.skill-container {
+    width: 60%;
+    display: flex;
+    /* align-content: center;
+    justify-content: center;
+    align-items: stretch; */
+    /* flex-wrap: wrap; */
+}
+
+.skill-icon {
+    position: relative;
+    height: 25px;
+    width: auto;
+    margin-right: 3px;
+    top: 3px;
+    /* right: 5px; */
+}
+
+.skill-name {
+    font-size: 28px;
+}
+
+.lang-table {
+    margin-left: 50px;
+}
+
+.lang-cell {
+    font-size: 22px;
+    padding: 10px 3px;
+
+    border: none;
+}
+
+/* 
+h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.pl-icon {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 110px;
+    width: auto;
+    background-color: transparent;
+}
+
+.fixed-header {
+    position: fixed;
+    z-index: 100;
+    height: auto;
+    border-bottom-style: ridge ;
+    border-bottom-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 23px;
+    background-color: rgb(143, 226, 171);
+}
+
+.sticky-flex {
+    position: relative;
+    display: flex;
+    top: 10px;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.page-head {
+    position: relative;
+    bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.weekly-scores-flex {
+    position: relative;
+    display: flex;
+    margin-top: 180px;
+    left: 30%;
+    width: 40%;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.weekly-score-box{
+    position: relative;
+    text-align: center;
+    font-size:larger;
+    font-weight: bold;
+    width: 40%;
+    border-radius: 7px;
+    border-color: black;
+    border-style: ridge;
+    background-color: rgb(49, 203, 214);
+}
+
+.my-team {
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items:stretch;
+}
+
+table {
+    border-collapse: collapse;
+    border:1px solid black;
+}
+th, td {
+    height: 30px;
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+} */
+
+/* tr {
+    background-color: rgba(88, 204, 88, 0.336);
+}
+tr:nth-child(even) {
+    background-color: rgba(41, 80, 41, 0.479);
+  } */
+
+/* .starting-team {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+} */
+
+/* 
+.field-position {
+    position: relative;
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+.player-table {
+    height: 100px;
+    width: 20%;
+    font-size: larger;
+}
+.player-table:hover{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+}
+
+.week-best-players {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    align-content:center;
+    justify-content:center;
+    align-items: stretch;
+}
+.best-players-table {
+    width: 40%; 
+    padding-bottom: 150px;
+    font-size: larger;
+}
+
+.best-players-header-row{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+}
+.best-players-row:hover{
+    background-color: rgb(0, 0, 0);
+    color: bisque;
+}
+
+.back-to-top {
+    padding: 20px;
+    font-size: large;
+} */
