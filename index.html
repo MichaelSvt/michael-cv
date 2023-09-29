@@ -4,10 +4,11 @@
         
 <head>
     <meta charset="UTF-8">
-    <title>GW1</title>
+    <title>Michael's Resume</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -17,28 +18,23 @@
           <div class="my-name">Michael Svitlizky</div>
             <div class="contact-info">
               <div class="contact-info2">
-                <!-- <i class="material-icons">call</i>
-                <div>054-7728717</div>
-                <i class="material-icons">mail</i>
-                <div>michaelsvitlizky@gmail.com</div> -->
                 <i class="material-icons">home</i>
                 <a href="https://michaelsvt.github.io/michael-cv/">My Site</a>
                 <i class="fab fa-linkedin"></i>
                 <a href="https://www.linkedin.com/in/michael-svitlizky-9b5838232/">linkedin.com/michael-svitlizky</a>  
                 
-              </div>
+              </div> <!-- end of first contact-info2 -->
+
+
               <div class="contact-info2">
                   <i class="material-icons">call</i>
                   <div>054-7728717</div>
                   <i class="material-icons">mail</i>
                   <div>michaelsvitlizky@gmail.com</div>
-                  <!-- <i class="fab fa-linkedin"></i>
-                  <a href="https://www.linkedin.com/in/michael-svitlizky-9b5838232/" style="color: white;">linkedin.com/michael-svitlizky</a>  
-                  <i class="material-icons">home</i>
-                  <a href="https://michaelsvt.github.io/michael-cv/">My Site</a> -->
-              </div>
-            </div>
-          </div>
+              </div> <!-- end of second contact-info2 -->
+              
+            </div>   <!-- end of contact-info -->
+          </div>  <!-- end of name-contact -->
         <p class="my-description">I am an ambitious 3rd year computer science student, with 2 semesters to graduation.
         <br>A creative thinker and a self-learner who likes working in a team.
         <br>Looking for my first role as a software developer</p>
@@ -47,197 +43,65 @@
 
     <div class="education">
         <h1>Education</h1>
-        <table class="edu-table">
-          <tr>
-            <td class="uni-name">Hebrew University of Jerusalem</td>
-            <td>B.Sc. Computer Science</td>
-            <td class="uni-date">10/2021 - 08/2024</td>
-            <td>GPA: 92</td>
-          </tr>
+        <div id="huji">
+          <table class="edu-table">
+            <tr>
+              <td class="uni-name">Hebrew University of Jerusalem</td>
+              <td>B.Sc. Computer Science</td>
+              <td class="uni-date">10/2021 - 08/2024</td>
+              <td>GPA: 92</td>
+            </tr>
+          </table>
+          <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>
+        </div>
 
-          <!-- Semester A -->
-          <tr>
-            <td class="course-name">NAND To Tetris</td>
-            <td> - 94</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Intro To Logic</td>
-            <td> - 96</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Infinitesimal Calculus 2</td>
-            <td> - 85</td>
-            <td></td>
-            <td></td>
-          </tr>
-          
-          <!-- Semester B -->
-          <tr>
-            <td class="course-name">Programming workshop in<br> C & C++</td>
-            <td> - 81</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Algorithms</td>
-            <td> - 97</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Calculus for CS</td>
-            <td> - 88</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Intro To Probability<br> and Statistics</td>
-            <td> - 92</td>
-            <td></td>
-            <td></td>
-          </tr>
-          
-          
-          <!-- Semester C -->
-          <tr>
-            <td class="course-name">Object Oriented Programming</td>
-            <td> - 92</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Computational Models, <br>Computability and Complexity</td>
-            <td> - 100</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Intro To Communication <br>Networks</td>
-            <td> - 88</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Image Processing</td>
-            <td> - 100</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Law & Society</td>
-            <td> - 82</td>
-            <td></td>
-            <td></td>
-          </tr>
-          
-          <!-- Semester D -->
-          <tr>
-            <td class="course-name">Intro to Cryptography<br> and Software Security</td>
-            <td> - 85</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Databases</td>
-            <td> - 99</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Intro To Machine Learning</td>
-            <td> - 93</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Operating Systems</td>
-            <td> - 93</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Critical Thinking</td>
-            <td> - 98</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <!-- Semester E -->
+        <div id="huji-courses-div"></div>
 
 
-          <!-- Semester F -->
-          <tr>
-            <td class="uni-name">Open University of Israel</td>
-            <td>B.Sc. Computer Science</td>
-            <td class="uni-date">08/2020 - 07/2021</td>
-            <td>GPA: 89</td>
-          </tr>
-          <tr>
-            <td class="course-name">Intro to Computer Science</td>
-            <td> - 92</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Discrete Mathematics</td>
-            <td> - 98</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Linear Algebra 1</td>
-            <td> - 80</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Infinitesimal Calculus 1</td>
-            <td> - 90</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Linear Algebra 2</td>
-            <td> - 89</td>
-            <td></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td class="course-name">Data Structures</td>
-            <td> - 87</td>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
+        <div id="open-uni" >
+          <table  class="edu-table">
+            <tr>
+              <td class="uni-name">Open University of Israel</td>
+              <td>B.Sc. Computer Science</td>
+              <td class="uni-date">08/2020 - 07/2021</td>
+              <td>GPA: 89</td>
+            </tr>
+          </table>
+      
+          <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>
+        </div>
+    
+        <div id="open-courses-div"></div>        
+
       </div>
-    <!-- end of education -->
 
+      
+    <!-- end of education -->
+    
+   
     <div class="skills">
       <h1>Skills</h1>
       <div class="skill-container">
         
-        <p class="skill-name"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png" class="skill-icon">  Python</p>
+        <p class="skill-name"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/121px-Python-logo-notext.svg.png" id="skill-icon">Python</p>
         
-        <p class="skill-name"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/380px-C_Programming_Language.svg.png?20201031132917" class="skill-icon"> C</p>
+        <p class="skill-name"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/380px-C_Programming_Language.svg.png?20201031132917" id="skill-icon">C</p>
         
-        <p class="skill-name"><img src="https://isocpp.org/assets/images/cpp_logo.png" class="skill-icon">  C++</p>
+        <p class="skill-name"><img src="https://isocpp.org/assets/images/cpp_logo.png" id="skill-icon">C++</p>
       
-        <p class="skill-name"><i class="fab fa-java"></i>  Java</p>
+        <p class="skill-name"><i class="fab fa-java" id="skill-icon"></i>Java</p>
 
-        <p class="skill-name"><i class="fas fa-database"></i>  SQL</p>
+        <p class="skill-name"><i class="fas fa-database" id="skill-icon"></i>SQL</p>
       </div>
 
       <div class="skill-container">
-        <p class="skill-name"><i class="fab fa-html5"></i> HTML</p>
+        <p class="skill-name"><i class="fab fa-html5" id="skill-icon"></i>HTML</p>
 
-        <p class="skill-name"><i class="fab fa-css3-alt"></i> CSS</p>
+        <p class="skill-name"><i class="fab fa-css3-alt" id="skill-icon"></i>CSS</p>
 
-        <p class="skill-name"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png" class="skill-icon">  Linux</p>
+        <p class="skill-name"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/150px-Tux.svg.png" id="skill-icon">Linux</p>
 
-        <p class="skill-name"><i class="fab fa-github"></i> GitHub</p>
+        <p class="skill-name"><i class="fab fa-github" id="skill-icon"></i>GitHub</p>
       </div>
 
     </div>
@@ -245,90 +109,82 @@
     <div class="projects">
       <h1>Projects</h1>
       <div class="proj-container">
+
+        <!-- PROJECT ONE -->
         <div class="proj1">
-          <h2>SpaceIL’s “To the Moon and Back” Image Processing Hackathon</h2>
-
-          <p>Processing and analayzing hyperspectral images from the “Beresheet 2” orbiter with the intention of 
-            discovering and classifying different materials and objects on the surface of the moon. Using a semi-supervised approach, first we divided each image to several clusters and
-            then assigned a label to each cluster.
-            <br> skills: python libraries such as numpy, sklearn and more.
-          </p>
+          <div class="proj-title" id="proj1-title">
+            <h2 >SpaceIL's “To the Moon and Back” Image Processing Hackathon</h2>
+          <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>
+          </div>
         </div>
 
+        <!-- PROJECT TWO -->
         <div class="proj2">
-          <h2>HUJI’s Machine Learning Hackathon</h2>
-          
-          <p>Developing a predictive model to forecast booking cancellations. dividing the work into two main parts.
-            The first phase revolved around the data, exploring feature correlations, eliminating redundancies, 
-            and crafting new features using various techniques. The second phase focused on model selection, 
-            evaluating various models using different metrics.
-          </p>  
-
+          <div class="proj-title" id="proj2-title">
+            <h2 >HUJI's Machine Learning Hackathon</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
 
-        <div>
-          <h2>NAND To Tetris</h2>
-          
-          <p>In the "NAND To Tetris" course, I developed a compiler which translated a programming language into virtual
-            machine language and further into assembly and machine code. Additionally, I implemented key operating
-            system functionalities, such as memory allocation, screen output, and keyboard input. This experience
-            provided a deep understanding of computer architecture and the layers of abstraction in modern
-            computing systems.
-          </p>  
+        <!-- PROJECT THREE -->
+        <div class="proj3">
+          <div class="proj-title" id="proj3-title">
+            <h2 >NAND To Tetris</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
 
-        <div>
-          <h2>Wireless Direction Indication System</h2>
-          
-          <p>As the final project of my practical engineering studies I designed and implemented a direction 
-            indication system consisting of 2 units which communicated wirelessly. The first unit determined 
-            the direction, while the second was responsible for displaying the gathered data. Working on this 
-            project allowed me to apply my knowledge of software and hardware development and gain familiarity 
-            with different technologies and protocols
-          </p>  
+        <!-- PROJECT FOUR -->
+        <div class="proj4">
+          <div class="proj-title" id="proj4-title">
+            <h2 >Wireless Direction Indication System</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
-      </div>
-    </div>
+
+      </div>    <!-- end of proj-container -->
+    </div>      <!-- end of projects div -->
+
 
     <div class="experience">
       <h1>Experience</h1>
       <div class="exp-container">
+
         <div class="exp1">
-          <h2>Electronic Warfare Technician</h2>
-
-          <p>In my role as an EW technician, I was responsible for testing, assimilating, maintaining, and operating 
-            state of the art military technologies.
-          </p>
+          <div class="exp-title" id="exp1-title">
+            <h2 >Electronic Warfare Technician</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
+
         <div class="exp2">
-          <h2>Platoon Commander</h2>
-
-          <p>As a Platoon Commander I oversaw the training of new recruits, preparing them for the military 
-            culture and their duties as EW technicians. Through this role I improved my leadership skills 
-            and my ability to work in a team and to manage a team.
-          </p>
+          <div class="exp-title" id="exp2-title">
+            <h2 >Platoon Commander</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
+
       </div>
     </div>
 
     <div class="organizations">
       <h1>Organizations</h1>
       <div class="org-container">
+
         <div class="org1">
-          <h2>"Moshal" Scholarship Program</h2>
-          
-          <p>The program provides workshops and tools for personal and professional development for talented
-            students with a challenging background.
-          </p>
+          <div class="org-title" id="org1-title">
+            <h2 >"Moshal" Scholarship Program</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
+
         <div class="org2">
-          <h2>The Van Leer Jerusalem Institute</h2>
-          
-          <p>Intellectual Journeys - a unique program of intellectual enrichment in the humanities and social sciences.
-             The program aims to foster skills such as observation, critical thinking and analyzing deep philosophical subjects as
-            well as current day issues.
-          </p>
+          <div class="org-title" id="org2-title">
+            <h2 >The Van Leer Jerusalem Institute</h2>
+            <i class="fas fa-chevron-down" style="position: relative; bottom: 10px;"></i>  
+          </div>
         </div>
+
       </div>
     </div>
 
