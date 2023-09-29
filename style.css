@@ -117,7 +117,8 @@ margin-top: 20px;
 
 .skill-container {
     width: 60%;
-    display: flex;
+    /* display: flex;  */
+    display: inline-flex;
 }
 
 #skill-icon {
@@ -164,7 +165,8 @@ margin-top: 20px;
 #huji {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
     width: 70%;
-    display: flex; 
+    /* display: flex;  */
+    display: inline-flex;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -172,7 +174,8 @@ margin-top: 20px;
 #open-uni {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
     width: 70%;
-    display: flex; 
+    /* display: flex;  */
+    display: inline-flex;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -180,7 +183,8 @@ margin-top: 20px;
 .proj-title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
     width: 70%;
-    display: flex; 
+    /* display: flex;  */
+    display: inline-flex;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -188,7 +192,8 @@ margin-top: 20px;
 .exp-title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
     width: 70%;
-    display: flex; 
+    /* display: flex;  */
+    display: inline-flex;
     align-items: baseline;
     justify-content: space-between;
 }
@@ -196,7 +201,8 @@ margin-top: 20px;
 .org-title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
     width: 70%;
-    display: flex; 
+    /* display: flex;  */
+    display: inline-flex;
     align-items: baseline;
     justify-content: space-between;
 }
