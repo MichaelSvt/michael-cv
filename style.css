@@ -7,10 +7,11 @@
 
 body{
     font-family: 'Arial Narrow', Arial, Helvetica, sans-serif;
-    background-color: rgba(214, 214, 217, 0.789);
+    background-color: rgba(197, 204, 225, 0.789);
     display: flex;
     flex-direction: column;
 }
+
 
 .page-header{
     padding: 25px;
@@ -67,21 +68,39 @@ th, td {
 } 
 
 
+.flex-container {
+    margin-left: 3%;
+    width: 94%;
+    overflow: auto;
+    display: flex;
+}
+
+.left-flex-column {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-flex-column {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
 
 .education, .skills, .projects, .experience, .organizations, .languages{
-    margin-left: 35px;
+    /* margin-left: 35px; */
+    /* border: 1px solid black; */
 }
 
 .edu-table {
-    margin-left: 20px;
     font-size: 20px;
-    width: 95%;
+    width: 98%;
 }
 
 .uni-name {
     font-size: 29px;
     font-weight: bold;
-    width: 43%;
+    width: 46%;
 }
 
 .uni-date {
@@ -91,6 +110,26 @@ th, td {
 .course-name {
     padding-left: 50px;
 }
+
+
+#huji {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+    width: 88%;
+    display: flex; 
+    /* display: inline-flex; */
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+#open-uni {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
+    width: 88%;
+    display: flex; 
+    /* display: inline-flex; */
+    align-items: baseline;
+    justify-content: space-between;
+}
+
 
 p {
     font-size: 22px;
@@ -107,23 +146,17 @@ h1 {
 }
 
 h2 {
-    font-size: 29px;
-    margin-left: 30px;
+    font-size: 27px;
+    /* margin-left: 30px; */
+    padding-left: 15px;
+    font-weight: bold;
 }
 
 .skills {
     margin-top: 20px;
+    /* margin-left: 40px; */
 }
 
-.skill-container {
-    width: 70%;
-    /* display: flex;  */
-    display: inline-flex;
-    align-items: stretch;
-    justify-content: center;
-    padding: 0px;
-
-}
 
 #skill-icon {
     position: relative;
@@ -134,59 +167,46 @@ h2 {
 }
 
 .skill-name {
-    font-size: 27px;
-    padding: 0px;
+    position: relative;
+    right: 30px;
+    font-size: 25px;
+    /* padding: 0px; */
 }
 
 .projects {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 
 .experience {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .organizations { 
-    margin-top: 20px;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 
 .languages { 
     margin-top: 20px;
+    /* margin-left: 40px; */
+    padding-bottom: 30px;
 }
     
 .lang-table {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .lang-cell {
-    font-size: 22px;
+    font-size: 25px;
     padding: 10px 3px;
-
     border: none;
 }
 
-#huji {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
-    width: 70%;
-    /* display: flex;  */
-    display: inline-flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
-#open-uni {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.203);
-    width: 70%;
-    /* display: flex;  */
-    display: inline-flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
 
 .proj-title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
-    width: 70%;
+    width: 87%;
     /* display: flex;  */
     display: inline-flex;
     align-items: baseline;
@@ -195,7 +215,7 @@ h2 {
 
 .exp-title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
-    width: 70%;
+    width: 87%;
     /* display: flex;  */
     display: inline-flex;
     align-items: baseline;
@@ -204,7 +224,7 @@ h2 {
 
 .org-title {
     border-bottom: 1px solid rgba(0, 0, 0, 0.203);
-    width: 70%;
+    width: 87%;
     /* display: flex;  */
     display: inline-flex;
     align-items: baseline;
